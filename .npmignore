@@ -1,0 +1,10 @@
+src/
+build-src/
+scripts/
+tsconfig.json
+bunfig.toml
+bun.lock
+.DS_Store
+*.tgz
+.git/
+.claude/

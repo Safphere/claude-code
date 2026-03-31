@@ -10,7 +10,7 @@ import {
 import { execSync } from 'child_process'
 import { join, relative, dirname, resolve } from 'path'
 
-const ROOT = '/Users/mrcat/Desktop/code/boss/claude-code'
+const ROOT = resolve(import.meta.dir, '..')
 const BUILD_DIR = join(ROOT, 'build-src')
 const SRC_DIR = join(ROOT, 'src')
 

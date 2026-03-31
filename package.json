@@ -9,8 +9,9 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "typecheck": "tsc --noEmit",
-    "start": "npx tsx src/entrypoints/cli.tsx"
+    "build": "bun scripts/build.ts",
+    "start": "node dist/cli.js",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@alcalzone/ansi-tokenize": "^0.3.0",
