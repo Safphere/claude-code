@@ -3,7 +3,7 @@ import { feature } from '../shims/bun-bundle-shim';
 // Polyfill MACRO globals for development
 if (typeof (globalThis as any).MACRO === 'undefined') {
   ;(globalThis as any).MACRO = {
-    VERSION: '2.1.88',
+    VERSION: '2.1.89',
     BUILD_TIME: new Date().toISOString(),
     FEEDBACK_CHANNEL: 'https://github.com/anthropics/claude-code/issues',
     ISSUES_EXPLAINER: 'report the issue at https://github.com/anthropics/claude-code/issues',
